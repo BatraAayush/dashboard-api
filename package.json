@@ -9,7 +9,8 @@
   },
   "scripts": {
     "start": "node index.js",
-    "postinstall": "prisma generate"
+    "build": "npx prisma generate",
+    "postinstall": "npx prisma generate"
   },
   "keywords": [],
   "author": "",
